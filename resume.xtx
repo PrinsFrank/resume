@@ -1,0 +1,72 @@
+\documentclass[]{resume-custom}
+
+\begin{document}
+    \namesection{Frank Prins}
+    \href{https://prinsfrank.nl}{PrinsFrank.nl} |
+    \href{https://github.com/PrinsFrank}{Github: PrinsFrank} |
+    \href{https://www.youtube.com/@PrinsFrank}{Youtube: @PrinsFrank} |
+    Haarlem, Netherlands
+    \noindent\rule{\textwidth}{1pt}
+    \bigbreak
+    \begin{minipage}[t]{0.3\textwidth}\raggedright
+        \section*{Skills}
+            \subsection*{Languages}
+                \bulletsOneLine{PHP}
+            \subsection*{Frameworks}
+                \bulletsOneLine{Symfony;Laravel}
+            \subsection*{Technologies}
+                \bulletsOneLine{MySQL;Redis;PubSub;ElasticSearch}
+            \subsection*{CI Tools}
+                \bulletsOneLine{Github Actions;GitLab;TeamCity;BitBucket;Jenkins}
+        \section*{Courses}
+            \course{Exin Privacy and Data Protection Foundation}{September 2022}
+            \course{Professional Scrum Master I}{November 2020}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.66\textwidth}\raggedright
+        \section*{Experience}
+            \job{AlisQI}{Senior Backend Engineer}{March 2024}{Current}{Remote}
+                \bullets{
+                    Upgraded PHP 8.1 => 8.2, Symfony 5.4 => 6.4;
+                    Migrated local development environment to Docker Compose;
+                    Monitored and configured production systems with Platform.sh
+                }
+            \job{Temper}{Senior Backend Engineer}{July 2022}{January 2024}{Remote \& Amsterdam, NL}
+                \bullets{
+                    Reduced size of codebase by more than 100.000 lines of code;
+                    Decreased CI pipeline runtime from 50 minutes to 6.5 minutes (Github Actions);
+                    Upgraded PHP 7.4 => 8.0 => 8.1 => 8.2, Laravel 8 => 9 => 10;
+                    Launched new countries: UK \& France. Multi country deployment, currencies, distances, legal, KYC;
+                    Interviewing Lead \& Senior developers, Engineering managers, Technical product managers;
+                    Monitored and configured production systems and queues on Google Cloud Platform;
+                    Rewritten invoicing service;
+                    Member of security team
+                }
+            \job{Superscanner}{Senior PHP Developer \& Scrum master}{March 2021}{June 2022}{Haarlem, NL}
+                \bullets{
+                    Implemented PHPStan and added custom rules;
+                    Migrated to Gitlab for CI/CD;
+                    Created natural language parsing for product units like weight, quantity, volumes, portions from raw retailer strings that works in 6 languages;
+                    Monitored and configured production systems and queues on Hetzner Cloud;
+                    Added code scaffolding for import/exports to more easily add new ones
+                }
+            \job{123Inkt}{PHP Developer}{June 2019}{February 2021}{Nederhorst den Berg, NL}
+                \bullets{
+                    Moved all internal PHP libraries to composer setup;
+                    Started an source team and published several internal packages as open source libraries;
+                    Co-implemented an internal RFC process;
+                    Implemented an internal developer WSL install for local development;
+                    Member of security team
+                }
+            \job{SWIS}{PHP/Laravel Developer}{October 2017}{May 2019}{Leiden, NL}
+                \bullets{
+                    Built several web applications with advanced map and geo features;
+                    Implemented several new routing algorithms in a shipping routing application and train routing application;
+                    Member of security team, efforts for ISO27001
+                }
+    \end{minipage}
+    \fancyfoot{}
+    \fancyfoot[R]{
+        \href{https://github.com/PrinsFrank/resume}{You can find the latest version of this resume on https://github.com/PrinsFrank/resume}
+    }
+\end{document}
