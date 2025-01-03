@@ -4,6 +4,9 @@ on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: write
+
 jobs:
   build_latex:
     runs-on: ubuntu-latest
@@ -17,3 +20,10 @@ jobs:
           root_file: |
             resume.xtx
           latexmk_use_xelatex: true
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            resume.pdf
+          tag_name: latest
