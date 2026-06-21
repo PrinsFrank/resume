@@ -63,12 +63,21 @@
                     Implemented several new routing algorithms in a shipping routing application and train routing application;
                     Member of security team, efforts for ISO27001
                 }
+    \section*{Open Source Projects}
+        \begin{itemize}
+            \project{prinsfrank/standards}{https://github.com/prinsfrank/standards}{A collection of standards as PHP Enums: ISO3166, ISO4217, ISO639... - 880k+ downloads}
+            \project{prinsfrank/pdfparser}{https://github.com/prinsfrank/pdfparser}{PHP library to read text \& images from PDFs - Fast \& Low memory - Built from scratch}
+        \end{itemize}
     \section*{Talks}
-        \talk{Building a PDF parser so you don’t have to}{Dutch PHP Conference}{2026, March 13}
+        \begin{itemize}
+            \talk{Building a PDF parser so you don’t have to}{https://phpconference.nl/speaker/frank-prins/}{Dutch PHP Conference}{2026, March 13}
+        \end{itemize}
     \section*{Certifications}
-        \certification{GitHub Actions}{March 2026}
-        \certification{Exin Privacy and Data Protection Foundation}{September 2022}
-        \certification{Professional Scrum Master I}{November 2020}
+        \begin{itemize}
+            \certification{GitHub Actions}{March 2026}
+            \certification{Exin Privacy and Data Protection Foundation}{September 2022}
+            \certification{Professional Scrum Master I}{November 2020}
+        \end{itemize}
     \fancyfoot{}
     \fancyfoot[R]{
         \href{https://github.com/PrinsFrank/resume}{You can find the latest version of this resume on https://github.com/PrinsFrank/resume}

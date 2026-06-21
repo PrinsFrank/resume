@@ -40,23 +40,21 @@
 }
 
 \newcommand{\certification}[2]{
-    \bulletsOneLine{#1 | #2}\\ % #1 name, #2 month/year of certification
+    \item{#1 | #2}\\ % #1 name, #2 month/year of certification
 }
 
-\newcommand{\talk}[3]{
-    \bulletsOneLine{#1 - #2 | #3}\\ % #1 title, #2 conference, #3 date
+\newcommand{\talk}[4]{
+    \item{\href{#2}{#1} - #3 | #4}\\ % #1 title, #2 conference, #3 date
+}
+
+\newcommand{\project}[3]{
+    \item{\href{#2}{#1} - #3}\\ % #1 title, #2 conference, #3 date
 }
 
 \NewDocumentCommand\bullets{>{\SplitList{;}}m} {
     \begin{itemize}[itemsep=0mm, parsep=0pt]
         \ProcessList{#1}{ \insertitem }
     \end{itemize}
-}
-
-\NewDocumentCommand\bulletsOneLine{>{\SplitList{;}}m} {
-    \begin{itemize*}[labelsep=0cm, leftmargin=*]
-        \ProcessList{#1}{ \insertitem }
-    \end{itemize*}
 }
 
 \newcommand\insertitem[1]{\item #1}
