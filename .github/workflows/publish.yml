@@ -20,6 +20,7 @@ jobs:
           root_file: |
             resume.xtx
           latexmk_use_xelatex: true
+          docker_image: ghcr.io/xu-cheng/texlive-full:20230401
 
       - name: Release
         uses: softprops/action-gh-release@v2
