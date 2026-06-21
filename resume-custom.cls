@@ -39,8 +39,8 @@
     \subsubsection*{\hspace{1em}#1 | #2 - #3} % #1 Job title, #2 Start date, #3 end date
 }
 
-\newcommand{\course}[2]{
-    \bulletsOneLine{#1 | #2}\\
+\newcommand{\certification}[2]{
+    \bulletsOneLine{#1 - #2}\\
 }
 
 \NewDocumentCommand\bullets{>{\SplitList{;}}m} {
