@@ -1,16 +1,19 @@
 \documentclass[]{resume-custom}
 
 \begin{document}
-    \vspace*{-4em}
+    \vspace*{-6em}
     \namesection{Frank Prins}
     \href{https://prinsfrank.nl}{PrinsFrank.nl} |
+    \href{https://www.linkedin.com/in/prinsfrank}{LinkedIn: PrinsFrank} |
     \href{https://github.com/PrinsFrank}{Github: PrinsFrank} |
     \href{https://www.youtube.com/@PrinsFrank}{Youtube: @PrinsFrank} |
     Haarlem, Netherlands
-    \noindent\rule{\textwidth}{1pt}
-    \bigbreak
-    \vspace{-1.5em}
+    \\[-0.7em]
+    \noindent\rule{\textwidth}{0.5pt}
+    \vspace{-2em}
     \begin{center}
+        \small{PHP | Symfony | Laravel | Github Actions | Docker Compose | GCP | RabbitMQ | PubSub | Redis | PHPStan | Composer | Dutch \& English}
+
         \textbf{Technical Lead specializing in PHP/Symfony with 10 years of experience scaling and modernizing backend systems, optimizing CI/CD pipelines and leading technical initiatives.}
     \end{center}
     \raggedright
@@ -18,8 +21,10 @@
         \company{AlisQI}{Remote \& Utrecht, NL}
             \job{Technical Lead}{March 2026}{Present}
                 \bullets{
+                    Leading technical direction for a team of 6 engineers, setting architecture standards and development practices;
                     Implemented background workers in Symfony with RabbitMQ to handle async processing at scale;
-                    Interviewing Developers, Engineering Managers
+                    Interviewing Developers, Engineering Managers;
+                    Standardizing development practices and cleaning up of legacy practices improving development velocity
                 }
             \job{Senior Backend Engineer}{March 2024}{February 2026}
                 \bullets{
@@ -27,12 +32,12 @@
                     Migrated local development environment to Docker Compose. Decreased local development setup from 1 week to 1 hour;
                     Monitored and configured production systems with Platform.sh/Upsun (PaaS);
                     Migrated from legacy structure to Symfony Framework to decrease onboarding friction;
-                    Migrated CI/CD pipelines from TeamCity to GitHub actions. Runtime from 50 minutes (blocking) => 5 minutes (parallel)
+                    Migrated CI/CD pipelines from TeamCity to GitHub actions. Runtime from 50 minutes => 5 minutes
                 }
         \company{Temper}{Remote \& Amsterdam, NL}
             \job{Senior Backend Engineer}{July 2022}{January 2024}
                 \bullets{
-                    Reduced size of codebase by more than 100.000 lines of code;
+                    Reduced size of codebase by more than 100,000 lines of code;
                     Decreased CI pipeline runtime from 50 minutes to 6.5 minutes (Github Actions);
                     Upgraded PHP 7.4 => 8.0 => 8.1 => 8.2, Laravel 8 => 9 => 10;
                     Launched new countries: UK \& France. Multi country deployment, currencies, distances, legal, KYC;
@@ -48,18 +53,16 @@
                     Migrated to Gitlab for CI/CD;
                     Created natural language parsing for product units like weight, quantity, volumes, portions from raw retailer strings that works in 6 languages;
                     Monitored and configured production systems and queues on Hetzner Cloud with Laravel Horizon in Redis;
-                    Added code scaffolding for import/exports to more easily add new ones
                 }
         \company{123inkt}{Nederhorst den Berg, NL}
             \job{PHP Developer}{June 2019}{February 2021}
                 \bullets{
                     Moved all internal PHP libraries to composer setup;
                     Started an open source team and published several internal packages as open source libraries;
-                    Co-implemented an internal RFC process;
+                    Member of security team, Co-implemented an internal RFC process;
                     Implemented an internal developer WSL install for local development;
                     Optimized many SQL queries for performance, load reduction and response time increase;
-                    Migration of CI/CD pipeline from Jenkins to Gitlab pipelines;
-                    Member of security team
+                    Migration of CI/CD pipeline from Jenkins to Gitlab pipelines
                 }
         \company{SWIS}{Leiden, NL}
             \job{PHP/Laravel Developer}{October 2017}{May 2019}
@@ -74,16 +77,18 @@
         \begin{itemize}
             \project{prinsfrank/standards}{https://github.com/prinsfrank/standards}{A collection of standards as PHP Enums: ISO3166, ISO4217, ISO639... - 880k+ downloads}
             \project{prinsfrank/pdfparser}{https://github.com/prinsfrank/pdfparser}{PHP library to read text \& images from PDFs - Fast \& Low memory - Built from scratch}
+            \item \textbf{Active contributor} - Regular contributions to Composer, PHPStan, PHP Ecosystem
         \end{itemize}
     \section*{Talks}
         \begin{itemize}
             \talk{Building a PDF parser so you don’t have to}{https://phpconference.nl/speaker/frank-prins/}{Dutch PHP Conference}{2026, March 13}
         \end{itemize}
-    \section*{Certifications}
+    \section*{Certifications \& Education}
         \begin{itemize}
             \certification{GitHub Actions}{March 2026}
             \certification{Exin Privacy and Data Protection Foundation}{September 2022}
             \certification{Professional Scrum Master I}{November 2020}
+            \item \textbf{Self-taught} - Backend Development, Software architecture
         \end{itemize}
     \fancyfoot{}
     \fancyfoot[R]{

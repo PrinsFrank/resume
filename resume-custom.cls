@@ -55,7 +55,7 @@
 \newcommand\insertitem[1]{\item #1}
 
 \usepackage{titlesec}
-\titlespacing*{\section}{0pt}{.8em}{0pt}
+\titlespacing*{\section}{0pt}{0em}{0pt}
 \titlespacing*{\subsection}{0pt}{0pt}{0pt}
 \titlespacing*{\subsubsection}{0pt}{0pt}{0pt}
 \titleformat{\section}{\large\bfseries\raggedright}{\thesection}{0em}{}
