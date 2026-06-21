@@ -68,6 +68,8 @@
                     Implemented several new routing algorithms in a shipping routing application and train routing application;
                     Member of security team, efforts for ISO27001
                 }
+        \company{Elbuco}{Zaltbommel, NL}
+            \job{Fullstack Developer}{January 2017}{September 2017}
     \section*{Open Source Projects}
         \begin{itemize}
             \project{prinsfrank/standards}{https://github.com/prinsfrank/standards}{A collection of standards as PHP Enums: ISO3166, ISO4217, ISO639... - 880k+ downloads}
