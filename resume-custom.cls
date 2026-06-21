@@ -1,5 +1,6 @@
 \ProvidesClass{resume-custom}
 \LoadClass{article}
+\usepackage[T1]{fontenc}
 
 \usepackage{libertinus}
 \usepackage[hidelinks]{hyperref}
@@ -7,6 +8,7 @@
 \usepackage{geometry}
 \usepackage[inline,shortlabels]{enumitem}
 \usepackage{xparse}
+\usepackage{titlesec}
 
 \geometry{a4paper, margin=15mm}
 \pagestyle{fancy}
@@ -21,6 +23,10 @@
         \end{center}
     \normalsize
 }
+
+\setlist[itemize]{itemsep=0mm, parsep=0pt, topsep=2pt, partopsep=0pt}
+\titlespacing*{\subsection}{0pt}{0pt}{0pt}
+\titlespacing*{\subsubsection}{0pt}{0pt}{0pt}
 
 \newcommand{\company}[2] {
     \subsection*{#1 - {\small #2}} % #1 Company name, #2 location
