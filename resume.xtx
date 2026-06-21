@@ -26,11 +26,17 @@
     \begin{minipage}[t]{0.66\textwidth}\raggedright
         \section*{Experience}
             \company{AlisQI}{Remote}
-                \job{Senior Backend Engineer}{March 2024}{Present}
+                \job{Technical Lead}{March 2026}{Present}
                     \bullets{
-                        Upgraded PHP 8.1 => 8.2, Symfony 5.4 => 6.4;
+                        Upgraded PHP 8.3 => 8.4;
+                        Implemented Background workers
+                    }
+                \job{Senior Backend Engineer}{March 2024}{February 2026}
+                    \bullets{
+                        Upgraded PHP 8.1 => 8.2 => 8.3, Symfony 5.4 => 6.4;
                         Migrated local development environment to Docker Compose;
-                        Monitored and configured production systems with Platform.sh
+                        Monitored and configured production systems with Platform.sh;
+                        Migrated from no framework to Symfony
                     }
             \company{Temper}{Remote \& Amsterdam, NL}
                 \job{Senior Backend Engineer}{July 2022}{January 2024}
