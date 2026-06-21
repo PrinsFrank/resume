@@ -14,7 +14,7 @@
     \end{center}
     \raggedright
     \section*{Experience}
-        \company{AlisQI}{Remote}
+        \company{AlisQI}{Remote \& Utrecht, NL}
             \job{Technical Lead}{March 2026}{Present}
                 \bullets{
                     Upgraded PHP 8.3 => 8.4;
