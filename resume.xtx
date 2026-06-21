@@ -8,13 +8,18 @@
     Haarlem, Netherlands
     \noindent\rule{\textwidth}{1pt}
     \bigbreak
+    \vspace{-1.5em}
+    \begin{center}
+        \textbf{Technical Lead specializing in PHP/Symfony with 10 years of experience scaling and modernizing backend systems, optimizing CI/CD pipelines and leading technical initiatives.}
+    \end{center}
     \raggedright
     \section*{Experience}
         \company{AlisQI}{Remote}
             \job{Technical Lead}{March 2026}{Present}
                 \bullets{
                     Upgraded PHP 8.3 => 8.4;
-                    Implemented Background workers
+                    Implemented Background workers;
+                    Interviewing Developers, Engineering Managers
                 }
             \job{Senior Backend Engineer}{March 2024}{February 2026}
                 \bullets{
@@ -49,7 +54,7 @@
             \job{PHP Developer}{June 2019}{February 2021}
                 \bullets{
                     Moved all internal PHP libraries to composer setup;
-                    Started an source team and published several internal packages as open source libraries;
+                    Started an open source team and published several internal packages as open source libraries;
                     Co-implemented an internal RFC process;
                     Implemented an internal developer WSL install for local development;
                     Optimized many SQL queries for performance, load reduction and response time increase;
@@ -81,6 +86,6 @@
     \fancyfoot{}
     \fancyfoot[R]{
         \footnotesize
-        \href{https://github.com/PrinsFrank/resume/releases/download/latest/resume.pdf}{Latest version: https://github.com/PrinsFrank/resume}
+        \href{https://github.com/PrinsFrank/resume/releases/download/latest/resume.pdf}{Latest version: github.com/PrinsFrank/resume}
     }
 \end{document}
