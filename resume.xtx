@@ -18,17 +18,16 @@
         \company{AlisQI}{Remote \& Utrecht, NL}
             \job{Technical Lead}{March 2026}{Present}
                 \bullets{
-                    Upgraded PHP 8.3 => 8.4;
-                    Implemented Background workers;
+                    Implemented background workers in Symfony with RabbitMQ to handle async processing at scale;
                     Interviewing Developers, Engineering Managers
                 }
             \job{Senior Backend Engineer}{March 2024}{February 2026}
                 \bullets{
-                    Upgraded PHP 8.1 => 8.2 => 8.3, Symfony 5.4 => 6.4;
-                    Migrated local development environment to Docker Compose;
-                    Monitored and configured production systems with Platform.sh;
-                    Migrated from no framework to Symfony;
-                    Migration of CI/CD pipelines from TeamCity to Github actions. Runtime from 50 minutes => 5 minutes
+                    Upgraded PHP 8.1 => 8.2 => 8.3 => 8.4, Symfony 5.4 => 6.4;
+                    Migrated local development environment to Docker Compose. Decreased local development setup from 1 week to 1 hour;
+                    Monitored and configured production systems with Platform.sh/Upsun (PaaS);
+                    Migrated from legacy structure to Symfony Framework to decrease onboarding friction;
+                    Migrated CI/CD pipelines from TeamCity to GitHub actions. Runtime from 50 minutes (blocking) => 5 minutes (parallel)
                 }
         \company{Temper}{Remote \& Amsterdam, NL}
             \job{Senior Backend Engineer}{July 2022}{January 2024}
