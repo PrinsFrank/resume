@@ -9,15 +9,6 @@
     \noindent\rule{\textwidth}{1pt}
     \bigbreak
     \raggedright
-    \section*{Skills}
-        \subsection*{Languages}
-            \bulletsOneLine{PHP}
-        \subsection*{Frameworks}
-            \bulletsOneLine{Symfony;Laravel}
-        \subsection*{Technologies}
-            \bulletsOneLine{MySQL;Redis;PubSub;ElasticSearch}
-        \subsection*{CI Tools}
-            \bulletsOneLine{Github Actions;GitLab;TeamCity;BitBucket;Jenkins}
     \section*{Experience}
         \company{AlisQI}{Remote}
             \job{Technical Lead}{March 2026}{Present}
@@ -30,7 +21,8 @@
                     Upgraded PHP 8.1 => 8.2 => 8.3, Symfony 5.4 => 6.4;
                     Migrated local development environment to Docker Compose;
                     Monitored and configured production systems with Platform.sh;
-                    Migrated from no framework to Symfony
+                    Migrated from no framework to Symfony;
+                    Migration of CI/CD pipelines from TeamCity to Github actions. Runtime from 50 minutes => 5 minutes
                 }
         \company{Temper}{Remote \& Amsterdam, NL}
             \job{Senior Backend Engineer}{July 2022}{January 2024}
@@ -41,7 +33,7 @@
                     Launched new countries: UK \& France. Multi country deployment, currencies, distances, legal, KYC;
                     Interviewing Lead \& Senior developers, Engineering managers, Technical product managers;
                     Monitored and configured production systems and queues on Google Cloud Platform;
-                    Rewritten invoicing service;
+                    Rewritten invoicing service (PubSub, GCP);
                     Member of security team
                 }
         \company{Superscanner}{Haarlem, NL}
@@ -50,7 +42,7 @@
                     Implemented PHPStan and added custom rules;
                     Migrated to Gitlab for CI/CD;
                     Created natural language parsing for product units like weight, quantity, volumes, portions from raw retailer strings that works in 6 languages;
-                    Monitored and configured production systems and queues on Hetzner Cloud;
+                    Monitored and configured production systems and queues on Hetzner Cloud with Laravel Horizon in Redis;
                     Added code scaffolding for import/exports to more easily add new ones
                 }
         \company{123inkt}{Nederhorst den Berg, NL}
@@ -60,6 +52,8 @@
                     Started an source team and published several internal packages as open source libraries;
                     Co-implemented an internal RFC process;
                     Implemented an internal developer WSL install for local development;
+                    Optimized many SQL queries for performance, load reduction and response time increase;
+                    Migration of CI/CD pipeline from Jenkins to Gitlab pipelines;
                     Member of security team
                 }
         \company{SWIS}{Leiden, NL}
