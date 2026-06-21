@@ -80,6 +80,7 @@
         \end{itemize}
     \fancyfoot{}
     \fancyfoot[R]{
-        \href{https://github.com/PrinsFrank/resume}{You can find the latest version of this resume on https://github.com/PrinsFrank/resume}
+        \footnotesize
+        \href{https://github.com/PrinsFrank/resume/releases/download/latest/resume.pdf}{Latest version: https://github.com/PrinsFrank/resume}
     }
 \end{document}
