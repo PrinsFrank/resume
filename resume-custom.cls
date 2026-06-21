@@ -27,6 +27,9 @@
 \setlist[itemize]{itemsep=0mm, parsep=0pt, topsep=2pt, partopsep=0pt}
 \titlespacing*{\subsection}{0pt}{0pt}{0pt}
 \titlespacing*{\subsubsection}{0pt}{0pt}{0pt}
+\titleformat{\section}{\large\bfseries\raggedright}{\thesection}{0em}{}
+\titleformat{\subsection}{\normalsize\bfseries\raggedright}{\thesubsection}{0em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\raggedright}{\thesubsubsection}{0em}{}
 
 \newcommand{\company}[2] {
     \subsection*{#1 - {\small #2}} % #1 Company name, #2 location
