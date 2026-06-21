@@ -22,9 +22,12 @@
     \normalsize
 }
 
-\newcommand{\job}[5]{
-    \subsection*{#1 | #2}
-    #3 - #4 | #5
+\newcommand{\company}[2] {
+    \subsection*{#1 - {\small #2}} % #1 Company name, #2 location
+}
+
+\newcommand{\job}[3]{
+    \subsubsection*{\hspace{1em}#1 | #2 - #3} % #1 Job title, #2 Start date, #3 end date
 }
 
 \newcommand{\course}[2]{
