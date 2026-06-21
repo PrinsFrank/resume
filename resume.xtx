@@ -63,6 +63,8 @@
                     Implemented several new routing algorithms in a shipping routing application and train routing application;
                     Member of security team, efforts for ISO27001
                 }
+    \section*{Talks}
+        \talk{Building a PDF parser so you don’t have to}{Dutch PHP Conference}{2026, March 13}
     \section*{Certifications}
         \certification{GitHub Actions}{March 2026}
         \certification{Exin Privacy and Data Protection Foundation}{September 2022}

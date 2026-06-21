@@ -40,7 +40,11 @@
 }
 
 \newcommand{\certification}[2]{
-    \bulletsOneLine{#1 - #2}\\
+    \bulletsOneLine{#1 | #2}\\ % #1 name, #2 month/year of certification
+}
+
+\newcommand{\talk}[3]{
+    \bulletsOneLine{#1 - #2 | #3}\\ % #1 title, #2 conference, #3 date
 }
 
 \NewDocumentCommand\bullets{>{\SplitList{;}}m} {
