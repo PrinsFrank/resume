@@ -1,6 +1,7 @@
 \documentclass[]{resume-custom}
 
 \begin{document}
+    \vspace*{-4em}
     \namesection{Frank Prins}
     \href{https://prinsfrank.nl}{PrinsFrank.nl} |
     \href{https://github.com/PrinsFrank}{Github: PrinsFrank} |

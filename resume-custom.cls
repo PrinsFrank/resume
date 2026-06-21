@@ -31,7 +31,7 @@
 }
 
 \newcommand{\job}[3]{
-    \subsubsection*{\hspace{1em}#1 | #2 - #3} % #1 Job title, #2 Start date, #3 end date
+    \subsubsection*{\hspace{1em}\textit{#1} | #2 - #3} % #1 Job title, #2 Start date, #3 end date
 }
 
 \newcommand{\certification}[2]{
@@ -55,7 +55,7 @@
 \newcommand\insertitem[1]{\item #1}
 
 \usepackage{titlesec}
-\titlespacing*{\section}{0pt}{1em}{0pt}
+\titlespacing*{\section}{0pt}{.8em}{0pt}
 \titlespacing*{\subsection}{0pt}{0pt}{0pt}
 \titlespacing*{\subsubsection}{0pt}{0pt}{0pt}
 \titleformat{\section}{\large\bfseries\raggedright}{\thesection}{0em}{}
